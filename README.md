@@ -1,5 +1,5 @@
 # trailhead
-## Salesforce Trailhead
+## Salesforce Trailhead - *Extracted from [Trailhead FAQ](https://developer.salesforce.com/page/Trailhead_FAQ)*
 ### What is Trailhead?
 Trailhead is the fun way to learn Salesforce. Test your knowledge while earning points and badges to celebrate your achievements.
 
