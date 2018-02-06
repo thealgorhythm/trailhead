@@ -18,7 +18,9 @@
       for (var i=0; i<accounts.length; i++) {
           var account = accounts[i];
           var latLng = [account.Location__Latitude__s, account.Location__Longitude__s];
-          L.marker(latLng, {account: account}).addTo(map);
+          L.marker(latLng, {account: account}).addTo(map).on('click', function(event) {
+            helper.navigateToDetailsView(event.target.options.account.Id);
+          });
       }
   },
 
